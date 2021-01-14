@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up and Login Form</title>
+    <link rel="stylesheet" href="stylelogin.css">
+</head>
+<body>
+    <form action="#">
+        <div class="button-box">
+            <a href="signup.html"><button type="button" class="toggle-button" id="signupbtn">Sign Up</button></a>
+            <a href="login.html"><button type="button" class="toggle-button" id="loginbtn" >Log In</button></a>
+        </div><br>
+        <div class="container">
+            <div class="title text">
+                <div class="titlelogin">Welcome Back!</div>
+            </div>
+            <div class="field">
+                <label for="username"><b>Username</b></label>
+                <input type="name" placeholder="Username" name="username" required>
+            </div><br>
+            <div class="field">
+                <label for="password"><b>Password</b></label>
+                <input type="password" placeholder="Password" name="password" required>
+            </div>
+            <div class="checkbox">
+                <label for="remember">
+                <input type="checkbox" class="checkbox" name="remember" value="remember">
+                Remember me</label>
+            </div>
+            <div class="field">
+                <button type="submit" class="submitbutton">Log In</button>
+            </div>
+            <div class="forgotpassword">
+                <a href="#" class="forgotpass">forgot password</a>?
+            </div><br><br> 
+            <div class="newuser">
+                <p>Not a memeber? <a href="signup.html">Signup now</a> </p>
+            </div>
+        </div>
+    </form> 
+</body>
+</html>
