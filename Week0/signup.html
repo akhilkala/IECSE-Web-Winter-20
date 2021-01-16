@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sign Up Page</title>
+    <style>
+      #Heading {
+        text-align : center;
+      }
+    </style>
+  </head>
+  <body>
+    <h3 id="Heading">Enter Details to Create Account</h3>
+    <hr>
+    <form action="process.js" method="POST" id="form">
+      <label id="full">Full Name :</label>
+      <input type="text" placeholder="Full Name">
+      <br> <br>
+      <label>Email address :</label>
+      <input type="email" placeholder="Email">
+      <br> <br>
+      <label>Create Username :</label>
+      <input type="text" placeholder="Username">
+      <br> <br>
+      <label>Create Password :</label>
+      <input type="text" placeholder="Password">
+      <br> 
+      <ul>
+        <li>The password must contain atleast 8 characters</li>
+        <li>Use atleast one number and one special character</li>
+      </ul>
+      <label>Confirm Password :</label>
+      <input type="text" placeholder="Password">
+      <br> <br>
+      <label>Gender :</label>
+      <label>Male</label>
+      <input type="radio" name="gender">
+      <label>Female</label>
+      <input type="radio" name="gender">
+      <label>Other</label>
+      <input type="radio" name="gender">
+      <br> <br>
+      <label>Date of Birth :</label>
+      <input type="date">
+      <br> <br>
+      <label>Resedential Address :</label>
+      <textarea name="address"  cols="20" rows="5"></textarea>
+      <br> <br>
+      <input type="submit" value="Create Account">
+      <hr>
+      <p>Already a member? Go back to <a href="login.html">Login</a> </p>
+    </form>
+  </body>
+</html>
