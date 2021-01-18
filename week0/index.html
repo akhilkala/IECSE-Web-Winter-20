@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>IECSE | Week-0 Task</title>
+
+</head>
+
+<body>
+    <section class="card-container">
+        <div class="circle1"></div>
+        <div class="circle2"></div>
+        <div class="glass">
+            <div class="alt">
+                <p>Click here to</p>
+                <button class="btn">Log-In</button>
+                <button class="btn hide">Sign-Up</button>
+            </div>
+
+            <div class="form-container">
+            <div class="form">
+                <form action="#" class=" signup">
+                    <h1>Sign Up</h1>
+                    <div class="form-grp">
+                        <label for="name">Enter Name</label>
+                        <input type="text" name="name" placeholder="Ex. John">
+                    </div>
+                    <div class="form-grp">
+                        <label for="name">Enter Username</label>
+                        <input type="text" name="username" placeholder="Ex. Doe">
+                    </div>
+                    <div class="form-grp">
+                        <label for="name">Enter Email-id</label>
+                        <input type="email" name="email" placeholder="example@mail.com">
+                    </div>
+                    <div class="form-grp">
+                        <label for="name">Enter Password</label>
+                        <input type="password" name="password" placeholder="password">
+                    </div>
+                    <input type="submit" value="Sign-Up" placeholder="Submit">
+                </form>
+            </div>
+            <div class="form hide" >
+                <form action="#" class=" login" >
+                    <h1>Sign In</h1>
+                    <div class="form-grp">
+                        <label for="name">Enter Email-id</label>
+                        <input type="email" name="email" placeholder="example@mail.com">
+                    </div>
+                    <div class="form-grp">
+                        <label for="name">Enter Password</label>
+                        <input type="password" name="password" placeholder="password">
+                    </div>
+                    <input type="submit" value="Sign-Up" placeholder="Submit">
+                </form>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <script>
+        $(".btn").on('click', () => {
+            $(".form").slideToggle(100);
+            $(".btn").toggleClass("hide");
+        })
+
+    </script>
+</body>
+
+</html>
