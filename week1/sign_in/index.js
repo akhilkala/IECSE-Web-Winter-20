@@ -1,3 +1,10 @@
+function resetForm(){
+    document.getElementById('password').value = '';
+
+    document.getElementById('username').value = '';
+
+}
+
 
 function loadMode(){
 
@@ -15,7 +22,7 @@ loadMode()
 document.getElementById('submitButton').addEventListener('click',(e)=>{
     e.preventDefault();
     alert("Signed in!")
-
+    resetForm();
 
 })
 
