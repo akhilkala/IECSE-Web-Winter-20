@@ -1,0 +1,66 @@
+
+body{
+
+    background-color: black;
+   
+
+     
+    
+    }
+#particles-js {
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: -1;
+
+      }
+    #mainDiv{
+    border-width:10px;
+    border-color: white;
+    margin-top: 150px;
+    
+    }
+    h1{
+        font-size: 97px;
+        margin: 10px;
+    }
+    
+    label{
+        color: white;
+        font-size: 40px;
+        margin: 10px;
+    }
+    i{
+        font-size: 20px;
+        color: white;
+        margin: 10px;
+    }
+    .formstyle{
+        font-size: 20px;
+        border : none;
+        background: none;
+        color: white;
+        
+    }
+    .mine{
+        border-bottom: 3px solid white;
+    }
+    .container{
+            border-radius: 20px;
+    
+        }
+    
+    button{
+        background: none;
+         
+        border:   solid white;
+        color: white;
+    }
+    button:hover{
+        background: white;
+         
+        border:   solid black;
+        color: black;
+    }
+    
