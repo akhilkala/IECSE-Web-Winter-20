@@ -1,0 +1,418 @@
+*{
+    padding:0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    background-color: seashell;
+  
+}
+
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    top: 0;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 4;
+}
+
+.navbar .links{
+    display: flex;
+    flex-direction: row;
+    font-size: 1.2rem;
+}
+
+.navbar .links .link{
+    padding: 1rem;
+    color: black;
+}
+
+.navbar .links li:hover{
+    background-color: #dbd6d6;
+}
+
+.hamburger{
+    transition: 0.2s ease-in-out all;
+    display: none;
+}
+
+#main{
+    background-attachment: fixed;
+    background-image: url('images/bghome.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding-top: 60px;
+    margin-top: -60px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+#main .overlay{
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(107, 119, 160, 0.6);
+    
+}
+
+#main h1{
+
+    text-align: center;
+    font-size: 2.4rem;
+}
+
+#main .arrows{
+    position: absolute;
+    bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrows a{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    transition: 0.2s ease-in-out all;
+}
+.logo-img{
+    background-image: url('images/hyperloop.png');
+    background-position: center;
+    background-size: contain;
+    width: 130px;
+    height: 50px;
+    margin-left: 1rem ;
+    transform: scale(1.3);
+    background-repeat: no-repeat;
+}
+
+.arrows a:hover{
+    transform: scale(1.1);
+}
+.arrows .arrow{
+    font-size: 3rem;
+    position: relative;
+}
+
+.arrow:nth-child(1){
+    top: 40px;
+    animation: blink 2s ease-in-out infinite;
+}
+
+
+.arrow:nth-child(2){
+    top: 20px;
+    animation: blink 2s .4s ease-in-out infinite;
+}
+
+.arrow:nth-child(3){
+    animation: blink 2s .6s ease-in-out infinite;
+}
+
+#partners{
+    align-items: center;
+    padding-top: 60px;
+    width: 100%;
+    height: 90%;
+
+}
+
+#partners .head-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.head-section span{
+    padding: 1rem;
+    font-size: 2rem;
+}
+.head-section img{
+    max-width: 500px;
+    min-width: 250px;
+    width: 40%;
+    padding: 1rem;
+
+}
+
+.body-section{
+    margin: 2rem 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.body-section h1{
+    padding: 1rem;
+    font-size: 3rem;
+}
+.body-section p{
+    font-size: 1.5rem;
+    
+}
+
+.card-long{
+    display: flex;
+    justify-content: center;
+    height: 250px;
+    padding: 1rem;
+    margin: 2rem 0;
+}
+
+.card-content{
+    background-color: #fff;
+    max-width: 840px;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    padding: 1rem;
+
+}
+.card-content div{
+    padding: 0 2rem;
+}
+
+.card-content div p{
+    margin: 1rem 0;
+}
+.card-content  img{
+    max-width: 338px;
+    width: 40%;
+}
+
+#xp1{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#xp1 h1{
+    font-size: 3rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+#xp1 p{
+    font-size: 1.4rem;
+    padding: 1rem;
+}
+
+#xp1 img{
+    max-width: 100%;
+    height: auto;
+}
+
+#xp1 .info{
+    background-color: #fff;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    box-shadow:   1px 1px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+#grid{
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+#grid h1{
+    font-size: 3rem;
+    padding: 1rem;
+
+}
+
+#grid p{
+    padding: 1rem;
+    font-size: 1.4rem;
+}
+
+.grid{
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex; 
+}
+
+.grid-item{
+    flex-basis: 20%;
+    background-color: white;
+    padding: 1rem;
+    margin: 1rem;
+    height: auto;
+    transition: 0.2s ease-in-out all;
+}
+
+.grid-item:hover{
+    transform: scale(1.1);
+}
+
+.grid-item h1{
+    font-size: 2rem !important;
+}
+.grid-item img{
+    max-width: 100%;
+    height: auto;
+}
+
+.grid-item p{
+    font-size: 1.1rem !important;
+}
+
+
+#hiring{
+    background-image: url('images/career.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-size: 1.4em;
+    width: 100%;
+}
+
+.hiring-container{
+    padding: 2rem;
+
+    /* width: 100%; */
+    height: 100%;
+    background-color: rgba(0, 0, 0,0.4);
+}
+
+
+#hiring h1, #hiring p{
+    margin: 1rem 0;
+}
+
+#hiring button{
+    padding: 0.5rem 1rem;
+    font-size: 1.3rem;
+    background-color: #24a0ed;
+    border : none;
+    border-radius: 6px ;
+    color: white;
+    transition: 0.2s ease-in-out all;
+    font-weight: 700;
+}
+
+#hiring button:hover{
+    background-color: #fff;
+    color: #24a0ed;
+}
+
+footer{
+    padding: 1rem;
+    text-align: center;
+}
+
+@keyframes blink{
+    0%{
+        opacity: 1;
+    }
+
+    50%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+@media only screen and (max-width: 650px){
+    .navbar{
+        flex-direction: column;
+    }
+    .navbar .links{
+        flex-direction: column;
+        justify-content: center;
+        background-color: white;
+        width: 100%;
+        display: none;
+    }
+
+    .logo{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo h1,.logo .hamburger{
+        padding: 0 1rem;
+    }
+
+    .hamburger{
+        display: block;
+        font-size: 1.4rem;
+    }
+
+    .hamburger:hover{
+        transform: scale(1.2);
+    }
+
+    #partners{
+        height: auto;
+    }
+    #partners .head-section{
+        flex-direction: column;
+        padding: 2rem;
+    }
+
+    .body-section p{
+        padding: 1rem;
+    }
+    .head-section span{
+        font-size: 1.8rem;
+    }
+    .head-section img{
+        width: 70%;
+    }
+
+    .card-content{
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+    }
+
+    .card-content img{
+        margin: 1rem 0;
+        width: auto;
+    }
+    .card-long{
+        height: auto;
+    }
+}
