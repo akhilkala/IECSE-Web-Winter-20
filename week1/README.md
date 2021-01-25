@@ -4,5 +4,5 @@
 
 Week 1 task was to replicated the design given below:
 
-![task](week1/images/task1.gif);
+![task](images/task1.gif);
 
