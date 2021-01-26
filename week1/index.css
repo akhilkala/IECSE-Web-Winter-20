@@ -1,0 +1,434 @@
+body{
+    background-color: whitesmoke;
+}
+.nav{
+    display: flex;
+    position: fixed;
+    background-color: rgb(254, 254, 254);
+    width: 100vw;
+    height: 11vh;
+border-radius: 15px;
+z-index: +1;
+
+}
+.list{
+    margin-left: 5vw;
+    padding: 2.5vh 1.5vw;
+margin: 1.5vh 1vw;
+list-style: none;
+font-size: medium;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.nav li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.3vw;
+}
+.nav li a:hover{
+    color: grey;
+  
+}
+.pic1{
+    display: flex;
+    height: 11vh;
+    width: 15vw;
+    background-color: black;
+    margin: 0vh 14vw;
+}
+.picc{
+    width: 100vw;
+    height: 100vh;
+opacity: 75%;
+z-index: +1;
+}
+.tex{
+    color: white;
+    position: absolute;
+    font-weight: bolder;
+    top: 50vh;
+    font-size: 2.5vw;
+    left: 8vw;
+    z-index: +1;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.par{
+    width: 25vw;
+    height: 28vh;
+    padding-left: 37vw;
+    background-color: whitesmoke;
+}
+.part{
+    font-size: 1.8vw;
+    font-weight: 500;
+    position: absolute;
+    top: 113vh;
+    left: 18vw;
+    font-family: cursive;
+}
+#tex{
+    font-size: 2.4vw;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    position: absolute;
+    top: 130vh;
+    left: 33vw;
+}
+#te{
+    font-size: 1vw;
+    font-weight: 550;
+    position: absolute;
+    top: 138vh;
+    left: 39vw;
+    font-family: monospace;
+}
+#box{
+    height: 35vh;
+    width: 59.5vw;
+    background-color: white;
+    position: absolute;
+    top: 210vh;
+    left: 23.3vw;
+
+}
+.box{
+    height: 33vh;
+    padding: 1vh 0.5vw;
+    width: 22.5vw;
+}
+#exp{
+    height: 48vh;
+    width: 28.5vw;
+    background-color: white;
+    position: absolute;
+    top: 156vh;
+    left: 23.3vw;  
+}
+.exp{
+    height: 26vh;
+    width:27.5vw ;
+    padding: 1vh 0.5vw;
+}
+.p{
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0px 6vw;
+    width: 50vw;
+    opacity: 90%;
+    font-size: 1.3vw;
+}
+#hyp{
+    font-weight: 300;
+    font-size: 1vw;
+    padding: 0px 0.5vw;
+    opacity: 70%;
+}
+#rea{
+    height: 48vh;
+    width: 28.5vw;
+    background-color: white;
+    position: absolute;
+    top: 156vh;
+    left: 54.3vw;  
+}
+.rea{
+    height: 26vh;
+    width:27.5vw ;
+    padding: 1vh 0.5vw;
+}
+#real{
+    font-weight: 300;
+    font-size: 1vw;
+    padding: 0px 0.5vw;
+    opacity: 70%;
+
+}
+.p1{
+    
+        font-weight: bolder;
+        padding: 0px 10vw;
+        width: 60vw;
+        opacity: 90%;
+position: absolute;
+top: 0vh;
+left: 19vw;
+font-size: 1.5vw;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#need{
+    position: absolute;
+top: 10vh;
+left:24vw;
+font-weight: 500;
+    font-size: 1.2vw;
+    padding: 0px 0.5vw;
+    opacity: 80%;
+}
+#int{
+    font-size: 2.6vw;
+    font-weight: bolder;
+    position: absolute;
+    top: 250vh;
+    left: 40vw;
+    font-family: fantasy;
+}
+#the{
+    font-size: 1vw;
+    font-weight: 550;
+    font-family: monospace;
+    position: absolute;
+    top: 258vh;
+    left: 36vw;
+}
+.un{
+    position: absolute;
+    top: 275vh;
+    left: 13vw;
+    width: 75vw;
+}
+#xp{
+    position: absolute;
+    top: 330vh;
+    left: 25vw;
+    width: 80vw;
+    height: 2vh;
+    font-size: 1.5vw;
+    opacity: 90%;
+    background-color: rgb(245, 245, 245);
+}
+#what{
+    font-size: x-large;
+    font-weight: bold;
+    position: absolute;
+    top: 2070px;
+    left: 450px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#news{
+    position: absolute;
+    top: 2110px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    left: 540px;
+    width: 270px;
+    font-weight: 700;
+}
+.div{
+    width: 200px;
+    height: 220px;
+    position: absolute;
+    top: 2200px;
+    left: 100px;
+    background-color: white;
+}
+#div{
+    width: 190px;
+    height: 120px;
+    padding: 5px 5px;
+}
+.div1{
+    width: 200px;
+    height: 220px;
+    position: absolute;
+    top: 2200px;
+    left: 400px;
+    background-color: white;
+}
+#div1{
+    width: 190px;
+    height: 120px;
+    padding: 5px 5px;
+}
+.div2{
+    width: 200px;
+    height: 220px;
+    position: absolute;
+    top: 2200px;
+    left: 700px;
+    background-color: white;
+}
+#div2{
+    width: 190px;
+    height: 120px;
+    padding: 5px 5px;
+}
+.div3{
+    width: 200px;
+    height: 220px;
+    position: absolute;
+    top: 2200px;
+    left: 1000px;
+    background-color: white;
+}
+#div3{
+    width: 190px;
+    height: 120px;
+    padding: 5px 5px;
+}
+.div4{
+    width: 200px;
+    height: 220px;
+    position: absolute;
+    top: 2500px;
+    left: 100px;
+    background-color: white;
+}
+#div4{
+    width: 190px;
+    height: 120px;
+    padding: 5px 5px;
+}
+.div5{
+    width: 200px;
+    height: 220px;
+    position: absolute;
+    top: 2500px;
+    left: 400px;
+    background-color: white;
+}
+#div5{
+    width: 190px;
+    height: 120px;
+    padding: 5px 5px;
+}
+.div6{
+    width: 200px;
+    height: 220px;
+    position: absolute;
+    top: 2500px;
+    left: 700px;
+    background-color: white;
+}
+#div6{
+    width: 190px;
+    height: 120px;
+    padding: 5px 5px;
+}
+.div7{
+    width: 200px;
+    height: 220px;
+    position: absolute;
+    top: 2500px;
+    left: 1000px;
+    background-color: white;
+}
+#div7{
+    width: 190px;
+    height: 120px;
+    padding: 5px 5px;
+}
+.div8{
+    width: 250px;
+    height: 220px;
+    position: absolute;
+    top: 2800px;
+    left: 200px;
+    background-color: white;
+}
+#div8{
+    width: 240px;
+    height: 120px;
+    padding: 5px 5px;
+}
+.div9{
+    width: 250px;
+    height: 220px;
+    position: absolute;
+    top: 2800px;
+    left: 500px;
+    background-color: white;
+}
+#div9{
+    width: 240px;
+    height: 120px;
+    padding: 5px 5px;
+}
+.div10{
+    width: 250px;
+    height: 220px;
+    position: absolute;
+    top: 2800px;
+    left: 800px;
+    background-color: white;
+}
+#div10{
+    width: 240px;
+    height: 120px;
+    padding: 5px 5px;
+}
+.dates{
+    font-size: small;
+    font-weight: bold;
+    padding: 0px 4px;
+    opacity: 80%;
+    font-family: sans-serif;
+}
+.texts{
+    font-size: 12px;
+    padding: 1px 4px;
+opacity: 60%;
+font-weight: 300;
+}
+.there{
+    position: absolute;
+    top: 3100px;
+    left: 400px;
+    width: 510px;
+    padding: 5px 5px;
+    height: 30px;
+    opacity: 80%;
+    font-family: serif;
+    font-weight: 800;
+    background-color: rgb(236, 236, 236);
+}
+.there a{
+    text-decoration: none;
+}
+.hire{
+    position: absolute;
+    top: 3200px;
+    width: 100%;
+    height: 250px;
+opacity: 85%;
+}
+#we{
+    position: absolute;
+    top: 3250px;
+    left: 50px;
+    color: white;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+}
+.at{
+    position: absolute;
+    top: 3330px;
+    left: 50px;
+    color: black;
+    font-weight: 500;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.a{
+    position: absolute;
+    top: 3345px;
+    left: 50px;
+    color: black;
+    font-weight: 500;
+    font-size: medium;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#btn{
+    position: absolute;
+    top: 3380px;
+    left: 50px;
+    width: 70px;
+    font-size: small;
+    border-radius: 10px;
+    font-weight: 600;
+    height: 30px;
+ font-family: cursive;
+    background-color: rgb(72, 148, 235);
+}
+#btn:hover{
+    background-color: rgb(115, 197, 218);
+}
