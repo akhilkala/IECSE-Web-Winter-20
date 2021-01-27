@@ -1,0 +1,114 @@
+
+h1{padding-left: 200px; position:relative; bottom:15px; }
+h2{padding-left: 300px; font-size: 20px; font-family: calibri; font-weight: normal; position:relative; bottom:30px;}
+h3{padding-left: 70px; font-size: 20px; font-family: calibri; font-weight: normal; position:relative; bottom:30px;}
+h4{padding-left: 70px; font-size: 20px; font-family: calibri; font-weight: normal; position:relative; bottom:30px;}
+h5{padding-left: 70px; font-size: 20px;font-family: calibri; font-weight: normal; position:relative; bottom:30px;}
+h6{padding-left: 70px; font-size: 20px;font-family: calibri; font-weight: normal; position:relative; bottom:30px;}
+ header{position:sticky;  z-index:999;
+top:0; height:70px; box-sizing: border-box; background-color:grey; border-radius:2px; box-shadow: 0 5px 15px rgba(0,0,0,0.5); 
+}
+a{
+    text-decoration:none; color:black;
+}
+p{position: relative; bottom:600px; text-align:center; color:black; font-size:50px; font-family:calibri; padding:0px; }
+body{
+    margin:0; padding: 0; background:white;  overflow-x:hidden; clear:both; margin-bottom: 5px;
+}
+
+.box{
+    position:absolute; top:50%; left:50%; transform:translate(-50%,-50%);
+}
+.box span
+{ display: block; width:20px; height: 20px; border-bottom:1px solid #fff;
+    border-right:1px solid #fff;
+    transform:rotate(45deg);
+    margin:-10px;
+    animation: animate 2s infinite; 
+}
+.box span:nth-child(2){animation-delay: -0.2s;}
+.box span:nth-child(3){animation-delay: -0.4s;}
+@keyframes animate {
+    0% { opacity: 0; transform:rotate(45deg) translate(-20px,-20px); }
+    50% {opacity: 1;}
+    100% {opacity: 2; transform:rotate(45deg) translate(20px,20px); }
+}
+span{ position: relative; bottom: -250px;}
+.container{
+    position:absolute; bottom:-1100px; width:450px; height:430px; left: 30%; transform: translate(-50%,-50%); padding:10px;
+box-sizing: border-box; background-color:grey; border-radius:2px; box-shadow: 0 5px 15px rgba(0,0,0,0.5); 
+}
+.container1{
+    position:absolute; bottom:-1100px; width:450px; height:430px; left: 70%; transform: translate(-50%,-50%); padding:10px;
+box-sizing: border-box; background-color:grey; border-radius:2px; box-shadow: 0 5px 15px rgba(0,0,0,0.5); 
+}
+.container2{
+    position:absolute; bottom:-1350px; width:950px; height:270px; left: 50%; transform: translate(-50%,-50%); padding:10px;
+box-sizing: border-box; background-color:grey; border-radius:7px; box-shadow: 0 5px 15px rgba(0,0,0,0.5); 
+}
+.container2 .content {padding-left:450px;}
+h10 {font-size:50px; position: relative; bottom:210px; font-family: calibri; padding-left:585px;}
+.container3{position:absolute; bottom:-1800px; width:830px; height:45px; left: 50%; transform: translate(-50%,-50%); padding:25px;
+    box-sizing: border-box; background-color:grey; border-radius:7px; box-shadow: 0 5px 15px rgba(0,0,0,0.5); 
+}
+h11 {font-size:40px; font-family: calibri; padding:450px;position: relative; bottom:550px;}
+.container4{
+    position:absolute; bottom:-2617px; width:370px; height:390px; left: 13%; transform: translate(-50%,-50%); padding:10px;
+box-sizing: border-box; background-color:grey; border-radius:2px; box-shadow: 0 5px 15px rgba(0,0,0,0.5); 
+}
+.container5{
+    position:absolute; bottom:-3200px; width:368px; height:780px; left: 38%; transform: translate(-50%,-50%); padding:10px;
+box-sizing: border-box; background-color:grey; border-radius:2px; box-shadow: 0 5px 15px rgba(0,0,0,0.5); 
+}
+.container6{
+position:absolute; bottom:-2617px; width:350px; height:395px; left: 63%; transform: translate(-50%,-50%); padding:10px;
+box-sizing: border-box; background-color:grey; border-radius:2px; box-shadow: 0 5px 15px rgba(0,0,0,0.5); 
+}
+.container7{
+    position:absolute; bottom:-2617px; width:360px; height:395px; left: 87%; transform: translate(-50%,-50%); padding:10px;
+    box-sizing: border-box; background-color:grey; border-radius:2px; box-shadow: 0 5px 15px rgba(0,0,0,0.5); 
+    }
+    .container8{
+        position:absolute; bottom:-3030px; width:360px; height:390px; left: 13%; transform: translate(-50%,-50%); padding:10px;
+    box-sizing: border-box; background-color:grey; border-radius:2px; box-shadow: 0 5px 15px rgba(0,0,0,0.5); 
+    } 
+    .container9{
+        position:absolute; bottom:-2950px; width:360px; height:340px; left: 63%; transform: translate(-50%,-50%); padding:10px;
+    box-sizing: border-box; background-color:grey; border-radius:2px; box-shadow: 0 5px 15px rgba(0,0,0,0.5); 
+    } 
+    .container10{
+        position:absolute; bottom:-2958px; width:360px; height:350px; left: 88%; transform: translate(-50%,-50%); padding:10px;
+    box-sizing: border-box; background-color:grey; border-radius:2px; box-shadow: 0 5px 15px rgba(0,0,0,0.5); 
+    } 
+    .container11{
+        position:absolute; bottom:-3450px; width:360px; height:400px; left: 13%; transform: translate(-50%,-50%); padding:10px;
+    box-sizing: border-box; background-color:grey; border-radius:2px; box-shadow: 0 5px 15px rgba(0,0,0,0.5); 
+    }     
+    .container12{
+        position:absolute; bottom:-3430px; width:360px; height:400px; left: 38%; transform: translate(-50%,-50%); padding:10px;
+    box-sizing: border-box; background-color:grey; border-radius:2px; box-shadow: 0 5px 15px rgba(0,0,0,0.5); 
+    }    
+    .container13{
+        position:absolute; bottom:-3415px; width:360px; height:390px; left: 63%; transform: translate(-50%,-50%); padding:10px;
+    box-sizing: border-box; background-color:grey; border-radius:2px; box-shadow: 0 5px 15px rgba(0,0,0,0.5); 
+    }     
+    .container14{
+        position:absolute; bottom:-3415px; width:360px; height:390px; left: 88%; transform: translate(-50%,-50%); padding:10px;
+    box-sizing: border-box; background-color:grey; border-radius:2px; box-shadow: 0 5px 15px rgba(0,0,0,0.5); 
+    } 
+    .content3{
+        position:relative; bottom:-800px; width:650px; height:40px; left: 50%; transform: translate(-50%,-50%); padding:20px;
+    box-sizing: border-box; background-color:grey; border-radius:2px; box-shadow: 0 5px 15px rgba(0,0,0,0.5); 
+    }  
+    @media all and (max-width:500px){body{color:black;}}
+    h22
+    {
+        font-size:50px;  color: white; font-family: calibri; position: relative; bottom:-580px; padding:50px;
+    }
+    button{
+       left:3%; color:white;  background-color:blue; width:120px; height:60px; border:black; font-size:25px; border-radius:12px; cursor: pointer; position: relative; bottom:-580px;
+    }
+    .box10{
+        position:relative; bottom:-670px;   
+   background-color:grey; font-size:15px; text-align:justify; padding-left:650px; font-family:Calibri; font-weight:lighter; height:25px;
+    }  
