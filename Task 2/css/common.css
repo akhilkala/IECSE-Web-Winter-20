@@ -1,0 +1,156 @@
+.dot {
+    height: 25px;
+    width: 25px;
+    border: 3px solid white;
+    border-radius: 50%;
+    display: inline-block;
+}
+#themes{
+    margin:40px;
+    text-align: center;
+}
+
+#dark{
+    background-color : black;
+}
+#light {
+    background-color : darkgrey;
+}
+#red{
+    background-color:indianred;
+}
+#violet{
+    background-color: violet;
+}
+
+
+#tasks-section{
+    margin-top:50px;
+    position: absolute;
+    left : 25%;
+    top : 17%;
+    max-height: 500px;
+    width: 700px;
+    max-width:50vw;
+
+    background-color : white;
+    text-align:center;
+    overflow-y:scroll;
+
+}
+.completed-input{
+
+ display: inline-block;
+
+}
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; /* 5px rounded corners */
+}
+
+/* Add rounded corners to the top left and the top right corner of the image */
+img {
+    border-radius: 5px 5px 0 0;
+}
+
+
+
+body,html{
+    margin:0;
+
+}
+
+
+#add-task{
+    border: 3px solid black;
+    background:none;
+    color : black;
+    padding:10px;
+    border-radius: 30px;
+    cursor:pointer;
+
+}
+
+#add-task:hover{
+    background:black;
+    color:white;
+}
+
+.new-task-container{
+    display:flex;
+    flex-direction: column;
+}
+
+.edit-buttons{
+    background: #ffdb36;
+    font-size:14px;
+    padding-left: 15px;
+    padding-right:15px;
+    border-radius: 10px;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin:7px;
+}
+.edit-buttons:hover,.delete-buttons:hover{
+    background:none;
+    color:black;
+    border: 2px solid black;
+    cursor: pointer;
+
+}
+.delete-buttons{
+    margin:7px;
+    color : white;
+    background: #ff3e3e;
+    font-size:14px;
+    padding-left: 15px;
+    padding-right:15px;
+    border-radius: 10px;
+    padding-top:10px;
+    padding-bottom:10px;
+
+}
+
+.task-edit-button{
+    margin:5px;
+    color : white;
+    font-size:11px;
+    padding-left:13px;
+    padding-right:13px;
+    padding-top:10px;
+    padding-bottom:10px;
+    border-radius: 10px;
+    border:2px solid black;
+    cursor:pointer;
+}
+
+#add-new-task{
+    background-color:lightseagreen;
+
+}
+#add-new-task:hover{
+    background-color : #297976;
+}
+
+#cancel-new-task{
+    background-color:orangered;
+}
+#cancel-new-task:hover{
+    background-color: #942504;
+}
+
+.button-area{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+}
+
+.task-edit-inputs{
+    margin:10px;
+    font-size:13px;
+    border:2px solid black;
+
+}
