@@ -1,0 +1,18 @@
+#heading {
+  text-align: center;
+}
+
+#click {
+  margin-left: 40%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#list {
+  list-style: none;
+}
+
+#new {
+  height: 15px;
+  width: 200px;
+}
